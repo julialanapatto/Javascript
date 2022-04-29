@@ -1,0 +1,71 @@
+
+.ratingCard {
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  max-width: 45vh;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.ratingCard img {
+  width: 15px;
+  background-color: hsl(212, 12%, 25%);
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.paragraph h1 {
+  color: hsl(0, 0%, 100%);
+  margin: 20px auto;
+}
+
+.paragraph p {
+  color: hsl(217, 12%, 63%);
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rating button {
+  background-color: hsl(210, 11%, 26%);
+  color: hsl(217, 12%, 63%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-style: none;
+  margin: 20px 10px;
+  font-weight: bolder;
+}
+
+.clicked {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.rating button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-style: none;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+
+.submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+
+}

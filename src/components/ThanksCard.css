@@ -1,0 +1,36 @@
+
+.ThanksCard {
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 45vh;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.ThanksCard img {
+  width: 25vh;
+  padding: 5px;
+}
+
+.ratingNote {
+  background-color: hsl(210, 11%, 26%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+.paragraph h1 {
+  color: hsl(0, 0%, 100%);
+  margin: 20px auto;
+}
+
+.paragraph p {
+  color: hsl(217, 12%, 63%);
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
